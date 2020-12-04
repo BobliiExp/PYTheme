@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA3A56910A864A0D47C49B17 /* libPods-PYTheme.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E790722991FA920406F6D71F /* libPods-PYTheme.a */; };
 		C43D6E3725733D660018374B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43D6E3625733D660018374B /* AppDelegate.swift */; };
 		C43D6E3925733D660018374B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43D6E3825733D660018374B /* SceneDelegate.swift */; };
 		C43D6E3B25733D660018374B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43D6E3A25733D660018374B /* ViewController.swift */; };
@@ -41,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2611353EE4B94291247D32F9 /* Pods-PYTheme.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PYTheme.release.xcconfig"; path = "Target Support Files/Pods-PYTheme/Pods-PYTheme.release.xcconfig"; sourceTree = "<group>"; };
+		8E14F588B4342FFFC01135BC /* Pods-PYTheme.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PYTheme.debug.xcconfig"; path = "Target Support Files/Pods-PYTheme/Pods-PYTheme.debug.xcconfig"; sourceTree = "<group>"; };
 		C43D6E3325733D660018374B /* PYTheme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PYTheme.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C43D6E3625733D660018374B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C43D6E3825733D660018374B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +64,7 @@
 		C43D7202257634160018374B /* UILabel+Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Style.swift"; sourceTree = "<group>"; };
 		C43D720A257636170018374B /* PYStyleDefine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PYStyleDefine.swift; sourceTree = "<group>"; };
 		C43D720F25763C880018374B /* PYStyleDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PYStyleDelegate.swift; sourceTree = "<group>"; };
+		E790722991FA920406F6D71F /* libPods-PYTheme.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PYTheme.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA3A56910A864A0D47C49B17 /* libPods-PYTheme.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +93,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5EA385A28DE4694F79440B28 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E790722991FA920406F6D71F /* libPods-PYTheme.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C43D6E2A25733D660018374B = {
 			isa = PBXGroup;
 			children = (
@@ -96,6 +109,8 @@
 				C43D6E4C25733D670018374B /* PYThemeTests */,
 				C43D6E5725733D670018374B /* PYThemeUITests */,
 				C43D6E3425733D660018374B /* Products */,
+				D79E2F7E87A92F773F1946ED /* Pods */,
+				5EA385A28DE4694F79440B28 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -178,6 +193,16 @@
 			path = Extension;
 			sourceTree = "<group>";
 		};
+		D79E2F7E87A92F773F1946ED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8E14F588B4342FFFC01135BC /* Pods-PYTheme.debug.xcconfig */,
+				2611353EE4B94291247D32F9 /* Pods-PYTheme.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -185,6 +210,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C43D6E5D25733D670018374B /* Build configuration list for PBXNativeTarget "PYTheme" */;
 			buildPhases = (
+				6629756EBFCEFAD27D505464 /* [CP] Check Pods Manifest.lock */,
 				C43D6E2F25733D660018374B /* Sources */,
 				C43D6E3025733D660018374B /* Frameworks */,
 				C43D6E3125733D660018374B /* Resources */,
@@ -302,6 +328,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6629756EBFCEFAD27D505464 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PYTheme-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C43D6E2F25733D660018374B /* Sources */ = {
@@ -489,6 +540,7 @@
 		};
 		C43D6E5E25733D670018374B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E14F588B4342FFFC01135BC /* Pods-PYTheme.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -509,6 +561,7 @@
 		};
 		C43D6E5F25733D670018374B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2611353EE4B94291247D32F9 /* Pods-PYTheme.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

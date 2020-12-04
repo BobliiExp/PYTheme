@@ -1,0 +1,6 @@
+module Pods_PYTheme {
+  umbrella header "Pods-PYTheme-umbrella.h"
+
+  export *
+  module * { export * }
+}
