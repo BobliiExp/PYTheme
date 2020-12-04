@@ -22,6 +22,7 @@
 		C43D7203257634160018374B /* UILabel+Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43D7202257634160018374B /* UILabel+Style.swift */; };
 		C43D720B257636170018374B /* PYStyleDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43D720A257636170018374B /* PYStyleDefine.swift */; };
 		C43D721025763C880018374B /* PYStyleDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43D720F25763C880018374B /* PYStyleDelegate.swift */; };
+		C46C3AAE2579E42D0059D5FB /* PYTheme.podspec in Resources */ = {isa = PBXBuildFile; fileRef = C46C3AAD2579E42D0059D5FB /* PYTheme.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		C43D7202257634160018374B /* UILabel+Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Style.swift"; sourceTree = "<group>"; };
 		C43D720A257636170018374B /* PYStyleDefine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PYStyleDefine.swift; sourceTree = "<group>"; };
 		C43D720F25763C880018374B /* PYStyleDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PYStyleDelegate.swift; sourceTree = "<group>"; };
+		C46C3AAD2579E42D0059D5FB /* PYTheme.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PYTheme.podspec; sourceTree = "<group>"; };
 		E790722991FA920406F6D71F /* libPods-PYTheme.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PYTheme.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -104,6 +106,7 @@
 		C43D6E2A25733D660018374B = {
 			isa = PBXGroup;
 			children = (
+				C46C3AAD2579E42D0059D5FB /* PYTheme.podspec */,
 				C43D6E7B257347410018374B /* Classes */,
 				C43D6E3525733D660018374B /* PYTheme */,
 				C43D6E4C25733D670018374B /* PYThemeTests */,
@@ -199,7 +202,6 @@
 				8E14F588B4342FFFC01135BC /* Pods-PYTheme.debug.xcconfig */,
 				2611353EE4B94291247D32F9 /* Pods-PYTheme.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -310,6 +312,7 @@
 				C43D6E4325733D670018374B /* LaunchScreen.storyboard in Resources */,
 				C43D6E4025733D670018374B /* Assets.xcassets in Resources */,
 				C43D6E3E25733D660018374B /* Main.storyboard in Resources */,
+				C46C3AAE2579E42D0059D5FB /* PYTheme.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
