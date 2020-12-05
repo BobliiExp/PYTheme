@@ -19,6 +19,11 @@ class ViewController: UIViewController {
     }
     
     func setupUI() {
+        let rootPath = FileManager.default.currentDirectoryPath
+        
+        var url = URL(fileURLWithPath: "")
+        url.lastPathComponent
+        
         let label = UILabel()
         label.frame = CGRect(x: 10, y: 100, width: 200, height: 30)
         label.text = "UILabel"

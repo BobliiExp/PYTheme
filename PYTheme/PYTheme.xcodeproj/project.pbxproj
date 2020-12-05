@@ -23,6 +23,11 @@
 		C43D720B257636170018374B /* PYStyleDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43D720A257636170018374B /* PYStyleDefine.swift */; };
 		C43D721025763C880018374B /* PYStyleDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43D720F25763C880018374B /* PYStyleDelegate.swift */; };
 		C46C3AAE2579E42D0059D5FB /* PYTheme.podspec in Resources */ = {isa = PBXBuildFile; fileRef = C46C3AAD2579E42D0059D5FB /* PYTheme.podspec */; };
+		C49AECA0257B798D001E78D5 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C49AEC9F257B798D001E78D5 /* Colors.xcassets */; };
+		C49AECA5257B7999001E78D5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C49AECA4257B7999001E78D5 /* Images.xcassets */; };
+		C49AECB1257B8203001E78D5 /* colorsGenerated.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49AECB0257B8203001E78D5 /* colorsGenerated.swift */; };
+		C49AECC3257B8BC0001E78D5 /* imagesGenerated.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49AECC2257B8BC0001E78D5 /* imagesGenerated.swift */; };
+		C4B3D1E9257B3BA70018EFED /* PYLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B3D1E8257B3BA70018EFED /* PYLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +71,13 @@
 		C43D720A257636170018374B /* PYStyleDefine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PYStyleDefine.swift; sourceTree = "<group>"; };
 		C43D720F25763C880018374B /* PYStyleDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PYStyleDelegate.swift; sourceTree = "<group>"; };
 		C46C3AAD2579E42D0059D5FB /* PYTheme.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PYTheme.podspec; sourceTree = "<group>"; };
+		C49AEC9F257B798D001E78D5 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		C49AECA4257B7999001E78D5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C49AECB0257B8203001E78D5 /* colorsGenerated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = colorsGenerated.swift; sourceTree = "<group>"; };
+		C49AECB8257B8243001E78D5 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		C49AECC2257B8BC0001E78D5 /* imagesGenerated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = imagesGenerated.swift; sourceTree = "<group>"; };
+		C4B3D1E8257B3BA70018EFED /* PYLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PYLabel.swift; sourceTree = "<group>"; };
+		C4B3D1F8257B5F610018EFED /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		E790722991FA920406F6D71F /* libPods-PYTheme.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PYTheme.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -106,7 +118,9 @@
 		C43D6E2A25733D660018374B = {
 			isa = PBXGroup;
 			children = (
+				C4B3D201257B68990018EFED /* AssetsMapping */,
 				C46C3AAD2579E42D0059D5FB /* PYTheme.podspec */,
+				C4B3D1F5257B5F610018EFED /* Scripts */,
 				C43D6E7B257347410018374B /* Classes */,
 				C43D6E3525733D660018374B /* PYTheme */,
 				C43D6E4C25733D670018374B /* PYThemeTests */,
@@ -162,6 +176,8 @@
 		C43D6E7B257347410018374B /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				C49AEC9E257B796E001E78D5 /* Themes */,
+				C4B3D1E7257B3B860018EFED /* Views */,
 				C43D720125762E080018374B /* Extension */,
 				C43D6E85257348050018374B /* Define */,
 				C43D6E7C257347520018374B /* Protocol */,
@@ -196,6 +212,73 @@
 			path = Extension;
 			sourceTree = "<group>";
 		};
+		C49AEC9E257B796E001E78D5 /* Themes */ = {
+			isa = PBXGroup;
+			children = (
+				C49AEC9F257B798D001E78D5 /* Colors.xcassets */,
+				C49AECA4257B7999001E78D5 /* Images.xcassets */,
+			);
+			path = Themes;
+			sourceTree = "<group>";
+		};
+		C49AECC1257B8BC0001E78D5 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				C49AECC2257B8BC0001E78D5 /* imagesGenerated.swift */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		C4B3D1E7257B3B860018EFED /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C4B3D1E8257B3BA70018EFED /* PYLabel.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C4B3D1F5257B5F610018EFED /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				C4B3D1F6257B5F610018EFED /* AssetsImage */,
+				C4B3D1F7257B5F610018EFED /* AssetsColor */,
+			);
+			path = Scripts;
+			sourceTree = SOURCE_ROOT;
+		};
+		C4B3D1F6257B5F610018EFED /* AssetsImage */ = {
+			isa = PBXGroup;
+			children = (
+				C49AECB8257B8243001E78D5 /* main.swift */,
+			);
+			path = AssetsImage;
+			sourceTree = "<group>";
+		};
+		C4B3D1F7257B5F610018EFED /* AssetsColor */ = {
+			isa = PBXGroup;
+			children = (
+				C4B3D1F8257B5F610018EFED /* main.swift */,
+			);
+			path = AssetsColor;
+			sourceTree = "<group>";
+		};
+		C4B3D201257B68990018EFED /* AssetsMapping */ = {
+			isa = PBXGroup;
+			children = (
+				C49AECC1257B8BC0001E78D5 /* Image */,
+				C4B3D202257B68990018EFED /* Color */,
+			);
+			path = AssetsMapping;
+			sourceTree = "<group>";
+		};
+		C4B3D202257B68990018EFED /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				C49AECB0257B8203001E78D5 /* colorsGenerated.swift */,
+			);
+			path = Color;
+			sourceTree = "<group>";
+		};
 		D79E2F7E87A92F773F1946ED /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -216,6 +299,8 @@
 				C43D6E2F25733D660018374B /* Sources */,
 				C43D6E3025733D660018374B /* Frameworks */,
 				C43D6E3125733D660018374B /* Resources */,
+				C4B3D1F1257B52310018EFED /* Generate assets colors */,
+				C49AECBD257B8B86001E78D5 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -309,8 +394,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C49AECA0257B798D001E78D5 /* Colors.xcassets in Resources */,
 				C43D6E4325733D670018374B /* LaunchScreen.storyboard in Resources */,
 				C43D6E4025733D670018374B /* Assets.xcassets in Resources */,
+				C49AECA5257B7999001E78D5 /* Images.xcassets in Resources */,
 				C43D6E3E25733D660018374B /* Main.storyboard in Resources */,
 				C46C3AAE2579E42D0059D5FB /* PYTheme.podspec in Resources */,
 			);
@@ -355,6 +442,41 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		C49AECBD257B8B86001E78D5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "DEVELOPER_DIR=\"${DEVELOPER_DIR}\" xcrun --sdk macosx \"${TOOLCHAIN_DIR}/usr/bin/\"swift -F \"${TOOLCHAIN_DIR}/usr/lib/swift/macosx/\" \"${SRCROOT}/Scripts/AssetsImage/main.swift\"\n";
+		};
+		C4B3D1F1257B52310018EFED /* Generate assets colors */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Generate assets colors";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "DEVELOPER_DIR=\"${DEVELOPER_DIR}\" xcrun --sdk macosx \"${TOOLCHAIN_DIR}/usr/bin/\"swift -F \"${TOOLCHAIN_DIR}/usr/lib/swift/macosx/\" \"${SRCROOT}/Scripts/AssetsColor/main.swift\"\n";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -367,8 +489,11 @@
 				C43D721025763C880018374B /* PYStyleDelegate.swift in Sources */,
 				C43D6E3725733D660018374B /* AppDelegate.swift in Sources */,
 				C43D720B257636170018374B /* PYStyleDefine.swift in Sources */,
+				C49AECB1257B8203001E78D5 /* colorsGenerated.swift in Sources */,
 				C43D6E88257349660018374B /* PYThemeManager.swift in Sources */,
 				C43D71FD25761B650018374B /* PYThemeDefine.swift in Sources */,
+				C4B3D1E9257B3BA70018EFED /* PYLabel.swift in Sources */,
+				C49AECC3257B8BC0001E78D5 /* imagesGenerated.swift in Sources */,
 				C43D6E3925733D660018374B /* SceneDelegate.swift in Sources */,
 				C43D6E7E257347A20018374B /* PYThemeDelegate.swift in Sources */,
 			);
