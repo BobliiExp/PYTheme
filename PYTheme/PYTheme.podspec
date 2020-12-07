@@ -23,10 +23,11 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '11.0'
   s.requires_arc = true
+  s.swift_version = '5.0'
   s.frameworks = 'Foundation'
 
 s.subspec 'PYTheme' do |ps|
-    ps.source_files = 'Classes/**/*.{swift,h,m}', 'Scripts/**/*.{swift,h,m}', 'AssetsMapping/**/*.{swift,h,m}'
+    ps.source_files = 'Classes/**/*.{swift,h,m}', 'AssetsMapping/**/*.{swift,h,m}'
 end
 
 end
