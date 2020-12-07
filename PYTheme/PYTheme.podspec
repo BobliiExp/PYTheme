@@ -1,14 +1,14 @@
 Pod::Spec.new do |s|
-  pod_name       = "PYTheme"
-  name           = "#{pod_name}"
-  url            = "https://github.com/BobliiExp/#{name}"
-  git_url        = "#{url}.git"
-  version        = "1.0.1"
-  source_files   = "Classes/**/*.{swift}", "Classes/*.{swift}"
+  # pod_name       = 'PYTheme'
+  name           = 'PYTheme'
+  url            = 'https://github.com/BobliiExp/#{name}'
+  git_url        = '#{url}.git'
+  version        = '1.0.2'
+  source_files   = 'Classes/**/*.{swift}', 'Classes/*.{swift}'
 
   s.name         = name
   s.version      = version
-  s.summary      = "PYTheme for iOS"
+  s.summary      = 'PYTheme for iOS'
   s.description  = <<-DESC
                   The PYTheme framework is designed to work seamlessly with your existing apps and projects.
                   you can simply add the pod your project.
