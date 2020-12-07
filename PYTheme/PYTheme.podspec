@@ -26,8 +26,7 @@ Pod::Spec.new do |s|
   s.frameworks = 'Foundation'
 
 s.subspec 'PYTheme' do |ps|
-    ps.source_files = 'Classes/*.{swift}', 'Scripts/*.{swift}', 'AssetsMapping/*.{swift}',
-
+    ps.source_files = 'Classes/*.{swift}', 'Scripts/*.{swift}', 'AssetsMapping/*.{swift}'
 end
 
 end
