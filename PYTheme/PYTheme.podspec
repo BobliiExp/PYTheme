@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.homepage     = url
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.author       = { "Bob Lee" => "boblii@hotmail.com" }
-  s.source       = { :git => 'git@github.com:BobliiExp/PYTheme.git', :tag => s.version.to_s}
+  s.source       = { :git => 'https://github.com/BobliiExp/PYTheme.git', :tag => s.version.to_s}
   
 
   s.ios.deployment_target = '11.0'
