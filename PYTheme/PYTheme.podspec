@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   url            = "https://github.com/BobliiExp/#{name}"
   git_url        = "#{url}.git"
   version        = "1.0.1"
-  source_files   = "#{pod_name}/**/*.{h,m}"
+  source_files   = "Classes/**/*.{swift}"
 
   s.name         = name
   s.version      = version
@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   s.frameworks = 'Foundation'
 
 s.subspec 'PYTheme' do |ps|
-    ps.source_files = 'Classes/**/*.{swift,h,m}', 'AssetsMapping/**/*.{swift,h,m}'
+    ps.source_files = 'AssetsMapping/**/*.{swift}'
 end
 
 end
