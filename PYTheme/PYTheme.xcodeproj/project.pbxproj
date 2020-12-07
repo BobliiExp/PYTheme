@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		AA3A56910A864A0D47C49B17 /* libPods-PYTheme.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E790722991FA920406F6D71F /* libPods-PYTheme.a */; };
+		C41FF0FB257E60E900CA4AA3 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C41FF0F9257E60E900CA4AA3 /* Colors.xcassets */; };
+		C41FF0FC257E60E900CA4AA3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C41FF0FA257E60E900CA4AA3 /* Images.xcassets */; };
 		C43D6E3725733D660018374B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43D6E3625733D660018374B /* AppDelegate.swift */; };
 		C43D6E3925733D660018374B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43D6E3825733D660018374B /* SceneDelegate.swift */; };
 		C43D6E3B25733D660018374B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43D6E3A25733D660018374B /* ViewController.swift */; };
@@ -30,8 +32,6 @@
 		C47A5CDE257E1CAB0080E2D8 /* PYStyleText.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47A5CDA257E1CAA0080E2D8 /* PYStyleText.swift */; };
 		C47A5CDF257E1CAB0080E2D8 /* PYStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47A5CDB257E1CAA0080E2D8 /* PYStyleView.swift */; };
 		C47A5CE0257E1CAB0080E2D8 /* PYStyleComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47A5CDC257E1CAA0080E2D8 /* PYStyleComponents.swift */; };
-		C49AECA0257B798D001E78D5 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C49AEC9F257B798D001E78D5 /* Colors.xcassets */; };
-		C49AECA5257B7999001E78D5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C49AECA4257B7999001E78D5 /* Images.xcassets */; };
 		C49AECB1257B8203001E78D5 /* colorsGenerated.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49AECB0257B8203001E78D5 /* colorsGenerated.swift */; };
 		C49AECC3257B8BC0001E78D5 /* imagesGenerated.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49AECC2257B8BC0001E78D5 /* imagesGenerated.swift */; };
 		C49AECCD257BE10B001E78D5 /* PYThemeVCUsingCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49AECCC257BE10B001E78D5 /* PYThemeVCUsingCustomView.swift */; };
@@ -59,6 +59,8 @@
 /* Begin PBXFileReference section */
 		2611353EE4B94291247D32F9 /* Pods-PYTheme.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PYTheme.release.xcconfig"; path = "Target Support Files/Pods-PYTheme/Pods-PYTheme.release.xcconfig"; sourceTree = "<group>"; };
 		8E14F588B4342FFFC01135BC /* Pods-PYTheme.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PYTheme.debug.xcconfig"; path = "Target Support Files/Pods-PYTheme/Pods-PYTheme.debug.xcconfig"; sourceTree = "<group>"; };
+		C41FF0F9257E60E900CA4AA3 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		C41FF0FA257E60E900CA4AA3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C43D6E3325733D660018374B /* PYTheme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PYTheme.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C43D6E3625733D660018374B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C43D6E3825733D660018374B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -87,8 +89,6 @@
 		C47A5CDA257E1CAA0080E2D8 /* PYStyleText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PYStyleText.swift; sourceTree = "<group>"; };
 		C47A5CDB257E1CAA0080E2D8 /* PYStyleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PYStyleView.swift; sourceTree = "<group>"; };
 		C47A5CDC257E1CAA0080E2D8 /* PYStyleComponents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PYStyleComponents.swift; sourceTree = "<group>"; };
-		C49AEC9F257B798D001E78D5 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
-		C49AECA4257B7999001E78D5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C49AECB0257B8203001E78D5 /* colorsGenerated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = colorsGenerated.swift; sourceTree = "<group>"; };
 		C49AECB8257B8243001E78D5 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		C49AECC2257B8BC0001E78D5 /* imagesGenerated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = imagesGenerated.swift; sourceTree = "<group>"; };
@@ -133,6 +133,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		C41FF0F8257E60E900CA4AA3 /* Themes */ = {
+			isa = PBXGroup;
+			children = (
+				C41FF0F9257E60E900CA4AA3 /* Colors.xcassets */,
+				C41FF0FA257E60E900CA4AA3 /* Images.xcassets */,
+			);
+			path = Themes;
+			sourceTree = "<group>";
+		};
 		C43D6E2A25733D660018374B = {
 			isa = PBXGroup;
 			children = (
@@ -162,6 +171,7 @@
 		C43D6E3525733D660018374B /* PYTheme */ = {
 			isa = PBXGroup;
 			children = (
+				C41FF0F8257E60E900CA4AA3 /* Themes */,
 				C43D6E3625733D660018374B /* AppDelegate.swift */,
 				C43D6E3825733D660018374B /* SceneDelegate.swift */,
 				C43D6E3A25733D660018374B /* ViewController.swift */,
@@ -196,7 +206,6 @@
 		C43D6E7B257347410018374B /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				C49AEC9E257B796E001E78D5 /* Themes */,
 				C4B3D1E7257B3B860018EFED /* Views */,
 				C43D720125762E080018374B /* Extension */,
 				C43D6E85257348050018374B /* Define */,
@@ -235,15 +244,6 @@
 				C47A5CCC257DDB170080E2D8 /* UIButton+Style.swift */,
 			);
 			path = Extension;
-			sourceTree = "<group>";
-		};
-		C49AEC9E257B796E001E78D5 /* Themes */ = {
-			isa = PBXGroup;
-			children = (
-				C49AEC9F257B798D001E78D5 /* Colors.xcassets */,
-				C49AECA4257B7999001E78D5 /* Images.xcassets */,
-			);
-			path = Themes;
 			sourceTree = "<group>";
 		};
 		C49AECC1257B8BC0001E78D5 /* Image */ = {
@@ -421,10 +421,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C49AECA0257B798D001E78D5 /* Colors.xcassets in Resources */,
+				C41FF0FB257E60E900CA4AA3 /* Colors.xcassets in Resources */,
 				C43D6E4325733D670018374B /* LaunchScreen.storyboard in Resources */,
 				C43D6E4025733D670018374B /* Assets.xcassets in Resources */,
-				C49AECA5257B7999001E78D5 /* Images.xcassets in Resources */,
+				C41FF0FC257E60E900CA4AA3 /* Images.xcassets in Resources */,
 				C43D6E3E25733D660018374B /* Main.storyboard in Resources */,
 				C46C3AAE2579E42D0059D5FB /* PYTheme.podspec in Resources */,
 			);
@@ -644,6 +644,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -698,6 +699,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;

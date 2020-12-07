@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   url            = "https://github.com/BobliiExp/#{name}"
   git_url        = "#{url}.git"
   version        = "1.0.1"
-  source_files   = "Classes/**/*.{swift}"
+  source_files   = "Classes/**/*.{swift}", "Classes/*.{swift}"
 
   s.name         = name
   s.version      = version

@@ -7,6 +7,6 @@ import UIKit
 /// color define
 public enum Image: String { 
 
-    // • /Users/bob/Documents/GitHub/PYTheme/PYTheme/Classes/Themes/Images.xcassets
+    // • /Users/bob/Documents/GitHub/PYTheme/PYTheme/PYTheme/Themes/Images.xcassets
     case ic_appicon
 }

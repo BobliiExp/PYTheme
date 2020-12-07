@@ -14,7 +14,7 @@ fileprivate let customColors: [String: UIColor] = [
     "colorTestLightIphone": UIColor(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0),
     "colorTestDarkIphone": UIColor(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0),
 
-    // • /Users/bob/Documents/GitHub/PYTheme/PYTheme/Classes/Themes/Colors.xcassets
+    // • /Users/bob/Documents/GitHub/PYTheme/PYTheme/PYTheme/Themes/Colors.xcassets
     "blackPanel": UIColor(red: 0.1568627450980392, green: 0.1568627450980392, blue: 0.1568627450980392, alpha: 1.0),
     "graySpan": UIColor(red: 0.5490196078431373, green: 0.5411764705882353, blue: 0.5411764705882353, alpha: 0.26),
     "whiteListVC": UIColor(red: 0.9607843137254902, green: 0.9607843137254902, blue: 0.9607843137254902, alpha: 1.0),
