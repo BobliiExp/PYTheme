@@ -1,15 +1,15 @@
 //
-//  PYLabel.swift
+//  PYView.swift
 //  PYTheme
 //
-//  Created by Bob Lee on 2020/12/5.
+//  Created by Bob Lee on 2020/12/7.
 //
 
 import UIKit
 
-class PYLabel: UILabel {
-    var stypeConfig: ((_ uiStyle: PYUserInterfaceStyle) -> PYTextStyle)?
-
+class PYView: UIView {
+    var styleConfig: ((_ uiStyle: PYUserInterfaceStyle) -> PYViewStyle)?
+    
     var userInterfaceStyle: PYUserInterfaceStyle = .unspecified
     
     override init(frame: CGRect) {
@@ -24,23 +24,23 @@ class PYLabel: UILabel {
     }
     
     deinit {
-        stypeConfig = nil
+        styleConfig = nil
     }
     
 }
 
-extension PYLabel: PYThemeDelegate {
+extension PYView: PYThemeDelegate {
     
     /// 通过闭包让外界可以处理不同情况的样式
     /// - Parameter config: 不同style下的样式配置回调
-    public func configStyle(config: @escaping (_ uiStyle: PYUserInterfaceStyle) -> PYTextStyle) {
-        stypeConfig = config
+    public func configStyle(config: @escaping (_ uiStyle: PYUserInterfaceStyle) -> PYViewStyle) {
+        styleConfig = config
         let uiStyle = userInterfaceStyle == .unspecified ? PYThemeManager.currentUIStyle() : userInterfaceStyle
         setupStyle(style: config(uiStyle))
     }
     
     public func didThemeChanged(_ uiStyle: PYUserInterfaceStyle) {
-        if let style = stypeConfig?(uiStyle) {
+        if let style = styleConfig?(uiStyle) {
             setupStyle(style: style)
         }
     }

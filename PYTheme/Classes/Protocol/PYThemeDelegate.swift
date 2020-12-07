@@ -11,9 +11,9 @@ import Foundation
 @objc public protocol PYThemeDelegate: NSObjectProtocol {
     
     /// 显示样式，默认不指定跟随变化；如果协议对象实现了此属性，将按照返回值控制样式
-    @objc optional var userInterfaceStyle: PYUserInterfaceStyle { get }
+    @objc optional var userInterfaceStyle: PYUserInterfaceStyle { get set }
     
-    /// 配置主题信息，包括字体、颜色、布局等信息，请提取到此方法
+    /// 配置主题信息，包括字体、颜色、布局等信息，需要与主题关联的请提取到此方法
     @objc optional func setupTheme()
     
     /// 主题风格变化了

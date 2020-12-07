@@ -8,5 +8,5 @@ import UIKit
 public enum Image: String { 
 
     // • /Users/bob/Documents/GitHub/PYTheme/PYTheme/Classes/Themes/Images.xcassets
-    case iconLaunch
+    case ic_appicon
 }

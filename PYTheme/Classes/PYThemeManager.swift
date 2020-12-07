@@ -15,7 +15,6 @@ public class PYThemeManager {
     }
     
     private static let shared: PYThemeManager = PYThemeManager()
-    private lazy var innerView: UIView = UIView()
     private var innerStyle: PYUserInterfaceStyle = .light {
         didSet {
             userInterfaceStyleChanged()
@@ -41,7 +40,7 @@ public class PYThemeManager {
     @objc private func handleAppEnterForground() {
         guard shouldKeepSystemStyle else { return }
         if #available(iOS 13, *) {
-            let style = innerView.overrideUserInterfaceStyle
+            let style = UITraitCollection.current.userInterfaceStyle
             if style.rawValue != uiStyle.rawValue, style != .unspecified {
                 uiStyle = style == .light ? .light : .dark
             }
@@ -58,6 +57,8 @@ private extension PYThemeManager {
                 vistor.vistor?.didThemeChanged?(uiStyle)
             }
         }
+        
+        vistors.removeAll(where: { $0.vistor == nil })
     }
 }
 

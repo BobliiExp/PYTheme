@@ -20,13 +20,22 @@
 		C43D6E88257349660018374B /* PYThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43D6E87257349660018374B /* PYThemeManager.swift */; };
 		C43D71FD25761B650018374B /* PYThemeDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43D71FC25761B640018374B /* PYThemeDefine.swift */; };
 		C43D7203257634160018374B /* UILabel+Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43D7202257634160018374B /* UILabel+Style.swift */; };
-		C43D720B257636170018374B /* PYStyleDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43D720A257636170018374B /* PYStyleDefine.swift */; };
 		C43D721025763C880018374B /* PYStyleDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43D720F25763C880018374B /* PYStyleDelegate.swift */; };
 		C46C3AAE2579E42D0059D5FB /* PYTheme.podspec in Resources */ = {isa = PBXBuildFile; fileRef = C46C3AAD2579E42D0059D5FB /* PYTheme.podspec */; };
+		C47A5CC3257DC7560080E2D8 /* PYView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47A5CC2257DC7560080E2D8 /* PYView.swift */; };
+		C47A5CC8257DD5330080E2D8 /* UIView+Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47A5CC7257DD5330080E2D8 /* UIView+Style.swift */; };
+		C47A5CCD257DDB170080E2D8 /* UIButton+Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47A5CCC257DDB170080E2D8 /* UIButton+Style.swift */; };
+		C47A5CD5257E03070080E2D8 /* PYButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47A5CD4257E03070080E2D8 /* PYButton.swift */; };
+		C47A5CDD257E1CAB0080E2D8 /* PYStyleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47A5CD9257E1CAA0080E2D8 /* PYStyleButton.swift */; };
+		C47A5CDE257E1CAB0080E2D8 /* PYStyleText.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47A5CDA257E1CAA0080E2D8 /* PYStyleText.swift */; };
+		C47A5CDF257E1CAB0080E2D8 /* PYStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47A5CDB257E1CAA0080E2D8 /* PYStyleView.swift */; };
+		C47A5CE0257E1CAB0080E2D8 /* PYStyleComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47A5CDC257E1CAA0080E2D8 /* PYStyleComponents.swift */; };
 		C49AECA0257B798D001E78D5 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C49AEC9F257B798D001E78D5 /* Colors.xcassets */; };
 		C49AECA5257B7999001E78D5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C49AECA4257B7999001E78D5 /* Images.xcassets */; };
 		C49AECB1257B8203001E78D5 /* colorsGenerated.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49AECB0257B8203001E78D5 /* colorsGenerated.swift */; };
 		C49AECC3257B8BC0001E78D5 /* imagesGenerated.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49AECC2257B8BC0001E78D5 /* imagesGenerated.swift */; };
+		C49AECCD257BE10B001E78D5 /* PYThemeVCUsingCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49AECCC257BE10B001E78D5 /* PYThemeVCUsingCustomView.swift */; };
+		C49AECD5257BE12B001E78D5 /* PYThemeVCUsingSystemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49AECD4257BE12B001E78D5 /* PYThemeVCUsingSystemView.swift */; };
 		C4B3D1E9257B3BA70018EFED /* PYLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B3D1E8257B3BA70018EFED /* PYLabel.swift */; };
 /* End PBXBuildFile section */
 
@@ -68,14 +77,23 @@
 		C43D6E87257349660018374B /* PYThemeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PYThemeManager.swift; sourceTree = "<group>"; };
 		C43D71FC25761B640018374B /* PYThemeDefine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PYThemeDefine.swift; sourceTree = "<group>"; };
 		C43D7202257634160018374B /* UILabel+Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Style.swift"; sourceTree = "<group>"; };
-		C43D720A257636170018374B /* PYStyleDefine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PYStyleDefine.swift; sourceTree = "<group>"; };
 		C43D720F25763C880018374B /* PYStyleDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PYStyleDelegate.swift; sourceTree = "<group>"; };
 		C46C3AAD2579E42D0059D5FB /* PYTheme.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PYTheme.podspec; sourceTree = "<group>"; };
+		C47A5CC2257DC7560080E2D8 /* PYView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PYView.swift; sourceTree = "<group>"; };
+		C47A5CC7257DD5330080E2D8 /* UIView+Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Style.swift"; sourceTree = "<group>"; };
+		C47A5CCC257DDB170080E2D8 /* UIButton+Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Style.swift"; sourceTree = "<group>"; };
+		C47A5CD4257E03070080E2D8 /* PYButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PYButton.swift; sourceTree = "<group>"; };
+		C47A5CD9257E1CAA0080E2D8 /* PYStyleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PYStyleButton.swift; sourceTree = "<group>"; };
+		C47A5CDA257E1CAA0080E2D8 /* PYStyleText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PYStyleText.swift; sourceTree = "<group>"; };
+		C47A5CDB257E1CAA0080E2D8 /* PYStyleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PYStyleView.swift; sourceTree = "<group>"; };
+		C47A5CDC257E1CAA0080E2D8 /* PYStyleComponents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PYStyleComponents.swift; sourceTree = "<group>"; };
 		C49AEC9F257B798D001E78D5 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		C49AECA4257B7999001E78D5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C49AECB0257B8203001E78D5 /* colorsGenerated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = colorsGenerated.swift; sourceTree = "<group>"; };
 		C49AECB8257B8243001E78D5 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		C49AECC2257B8BC0001E78D5 /* imagesGenerated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = imagesGenerated.swift; sourceTree = "<group>"; };
+		C49AECCC257BE10B001E78D5 /* PYThemeVCUsingCustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PYThemeVCUsingCustomView.swift; sourceTree = "<group>"; };
+		C49AECD4257BE12B001E78D5 /* PYThemeVCUsingSystemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PYThemeVCUsingSystemView.swift; sourceTree = "<group>"; };
 		C4B3D1E8257B3BA70018EFED /* PYLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PYLabel.swift; sourceTree = "<group>"; };
 		C4B3D1F8257B5F610018EFED /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		E790722991FA920406F6D71F /* libPods-PYTheme.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PYTheme.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -118,8 +136,8 @@
 		C43D6E2A25733D660018374B = {
 			isa = PBXGroup;
 			children = (
-				C4B3D201257B68990018EFED /* AssetsMapping */,
 				C46C3AAD2579E42D0059D5FB /* PYTheme.podspec */,
+				C4B3D201257B68990018EFED /* AssetsMapping */,
 				C4B3D1F5257B5F610018EFED /* Scripts */,
 				C43D6E7B257347410018374B /* Classes */,
 				C43D6E3525733D660018374B /* PYTheme */,
@@ -151,6 +169,8 @@
 				C43D6E3F25733D670018374B /* Assets.xcassets */,
 				C43D6E4125733D670018374B /* LaunchScreen.storyboard */,
 				C43D6E4425733D670018374B /* Info.plist */,
+				C49AECCC257BE10B001E78D5 /* PYThemeVCUsingCustomView.swift */,
+				C49AECD4257BE12B001E78D5 /* PYThemeVCUsingSystemView.swift */,
 			);
 			path = PYTheme;
 			sourceTree = "<group>";
@@ -198,8 +218,11 @@
 		C43D6E85257348050018374B /* Define */ = {
 			isa = PBXGroup;
 			children = (
+				C47A5CD9257E1CAA0080E2D8 /* PYStyleButton.swift */,
+				C47A5CDC257E1CAA0080E2D8 /* PYStyleComponents.swift */,
+				C47A5CDA257E1CAA0080E2D8 /* PYStyleText.swift */,
+				C47A5CDB257E1CAA0080E2D8 /* PYStyleView.swift */,
 				C43D71FC25761B640018374B /* PYThemeDefine.swift */,
-				C43D720A257636170018374B /* PYStyleDefine.swift */,
 			);
 			path = Define;
 			sourceTree = "<group>";
@@ -208,6 +231,8 @@
 			isa = PBXGroup;
 			children = (
 				C43D7202257634160018374B /* UILabel+Style.swift */,
+				C47A5CC7257DD5330080E2D8 /* UIView+Style.swift */,
+				C47A5CCC257DDB170080E2D8 /* UIButton+Style.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -233,6 +258,8 @@
 			isa = PBXGroup;
 			children = (
 				C4B3D1E8257B3BA70018EFED /* PYLabel.swift */,
+				C47A5CC2257DC7560080E2D8 /* PYView.swift */,
+				C47A5CD4257E03070080E2D8 /* PYButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -485,17 +512,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				C43D6E3B25733D660018374B /* ViewController.swift in Sources */,
+				C47A5CDF257E1CAB0080E2D8 /* PYStyleView.swift in Sources */,
 				C43D7203257634160018374B /* UILabel+Style.swift in Sources */,
+				C47A5CC8257DD5330080E2D8 /* UIView+Style.swift in Sources */,
 				C43D721025763C880018374B /* PYStyleDelegate.swift in Sources */,
+				C49AECCD257BE10B001E78D5 /* PYThemeVCUsingCustomView.swift in Sources */,
+				C47A5CC3257DC7560080E2D8 /* PYView.swift in Sources */,
 				C43D6E3725733D660018374B /* AppDelegate.swift in Sources */,
-				C43D720B257636170018374B /* PYStyleDefine.swift in Sources */,
 				C49AECB1257B8203001E78D5 /* colorsGenerated.swift in Sources */,
 				C43D6E88257349660018374B /* PYThemeManager.swift in Sources */,
 				C43D71FD25761B650018374B /* PYThemeDefine.swift in Sources */,
 				C4B3D1E9257B3BA70018EFED /* PYLabel.swift in Sources */,
+				C47A5CCD257DDB170080E2D8 /* UIButton+Style.swift in Sources */,
 				C49AECC3257B8BC0001E78D5 /* imagesGenerated.swift in Sources */,
 				C43D6E3925733D660018374B /* SceneDelegate.swift in Sources */,
+				C47A5CDD257E1CAB0080E2D8 /* PYStyleButton.swift in Sources */,
+				C49AECD5257BE12B001E78D5 /* PYThemeVCUsingSystemView.swift in Sources */,
+				C47A5CDE257E1CAB0080E2D8 /* PYStyleText.swift in Sources */,
+				C47A5CD5257E03070080E2D8 /* PYButton.swift in Sources */,
 				C43D6E7E257347A20018374B /* PYThemeDelegate.swift in Sources */,
+				C47A5CE0257E1CAB0080E2D8 /* PYStyleComponents.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

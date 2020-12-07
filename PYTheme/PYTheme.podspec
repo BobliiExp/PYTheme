@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
 
   s.name         = name
   s.version      = version
-  s.summary      = "PYPageScrollView for iOS"
+  s.summary      = "PYTheme for iOS"
   s.description  = <<-DESC
                   The PYTheme framework is designed to work seamlessly with your existing apps and projects.
                   you can simply add the pod your project.
@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   s.frameworks = 'Foundation'
 
 s.subspec 'PYTheme' do |ps|
-    ps.source_files = 'Classes/*.{swift}'
+    ps.source_files = 'Classes/*.{swift}', 'Scripts/*.{swift}', 'AssetsMapping/*.{swift}',
 
 end
 
