@@ -1,4 +1,3 @@
-node_modules
 # Xcode
 #
 # gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
@@ -17,6 +16,7 @@ DerivedData/
 *.perspectivev3
 !default.perspectivev3
 xcuserdata/
+*.xcuserstate
 
 ## Other
 *.moved-aside
